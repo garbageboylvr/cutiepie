@@ -1,4 +1,4 @@
-  <script>
+
       
 function clickCounter() {
   if (typeof(Storage) !== "undefined") {
@@ -12,4 +12,4 @@ function clickCounter() {
     document.getElementById("result").innerHTML = "Sorry, your browser does not support web storage...";
   }
 }
-      </script>
+
